@@ -11,7 +11,7 @@ fun main() {
     val quotes= doc.select("article")
 
     quotes.forEach() {
-        println("${quotes.text()} \n")
+        println("${quotes.text()}\n")
     }
 
 }
